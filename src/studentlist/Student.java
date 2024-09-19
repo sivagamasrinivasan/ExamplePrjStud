@@ -15,7 +15,8 @@ public class Student // model the student raw data
 private int sem;
 private String courseDetails;
     private String schedule;
-    // this is to learn fetch+merge
+    // this is to learn fetch+merge 
+    private String courseName;
     /**
      * @return the name
      */
