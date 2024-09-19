@@ -13,6 +13,7 @@ public class Student // model the student raw data
     private String name; // variables private 
    private int sid; // principle "encapsulation"
 private int sem;
+private String courseDetails;
     /**
      * @return the name
      */
@@ -53,5 +54,19 @@ private int sem;
      */
     public void setSem(int sem) {
         this.sem = sem;
+    }
+
+    /**
+     * @return the courseDetails
+     */
+    public String getCourseDetails() {
+        return courseDetails;
+    }
+
+    /**
+     * @param courseDetails the courseDetails to set
+     */
+    public void setCourseDetails(String courseDetails) {
+        this.courseDetails = courseDetails;
     }
 }
